@@ -1,9 +1,6 @@
 # Tarea 3 — Procesamiento de datos con Apache Spark
 
-** William de Jesus Marín Jiménez **
-Big Data - Código: 202016911
-Grupo 115
-UNAD
+William de Jesus Marín Jiménez - Big Data - Código: 202016911 - Grupo 115 - UNAD
 
 **William de Jesus Marín Jiménez · Grupo 115 · Big Data · UNAD**
 
