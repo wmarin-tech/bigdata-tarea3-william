@@ -1,5 +1,10 @@
 # Tarea 3 — Procesamiento de datos con Apache Spark
 
+William de Jesus Marín Jiménez
+Big Data - Código: 202016911
+Grupo 115
+UNAD
+
 **William de Jesus Marín Jiménez · Grupo 115 · Big Data · UNAD**
 
 Este repositorio reúne mi componente práctico individual: análisis histórico de la Tasa de Cambio Representativa del Mercado (TRM) mediante PySpark y HDFS, y procesamiento de sensores simulados con Kafka y Spark Structured Streaming. El código publicado es el mismo que se ejecutó en la máquina virtual BIGDATA. La práctica de sensores se basa en el Anexo 3 del curso.
