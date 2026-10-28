@@ -1,0 +1,134 @@
+26/10/27 22:47:11 WARN Utils: Your hostname, BIGDATA resolves to a loopback address: 127.0.1.1; using 10.0.2.15 instead (on interface enp0s3)
+26/10/27 22:47:11 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+26/10/27 22:47:12 INFO SparkContext: Running Spark version 3.5.8
+26/10/27 22:47:12 INFO SparkContext: OS info Linux, 5.15.0-198-generic, amd64
+26/10/27 22:47:12 INFO SparkContext: Java version 11.0.32.1
+26/10/27 22:47:12 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+26/10/27 22:47:12 INFO ResourceUtils: ==============================================================
+26/10/27 22:47:12 INFO ResourceUtils: No custom resources configured for spark.driver.
+26/10/27 22:47:12 INFO ResourceUtils: ==============================================================
+26/10/27 22:47:12 INFO SparkContext: Submitted application: TRM_Grupo115
+26/10/27 22:47:12 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(cores -> name: cores, amount: 1, script: , vendor: , memory -> name: memory, amount: 1024, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+26/10/27 22:47:12 INFO ResourceProfile: Limiting resource is cpu
+26/10/27 22:47:12 INFO ResourceProfileManager: Added ResourceProfile id: 0
+26/10/27 22:47:12 INFO SecurityManager: Changing view acls to: hadoop
+26/10/27 22:47:12 INFO SecurityManager: Changing modify acls to: hadoop
+26/10/27 22:47:12 INFO SecurityManager: Changing view acls groups to: 
+26/10/27 22:47:12 INFO SecurityManager: Changing modify acls groups to: 
+26/10/27 22:47:12 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: hadoop; groups with view permissions: EMPTY; users with modify permissions: hadoop; groups with modify permissions: EMPTY
+26/10/27 22:47:13 INFO Utils: Successfully started service 'sparkDriver' on port 34637.
+26/10/27 22:47:13 INFO SparkEnv: Registering MapOutputTracker
+26/10/27 22:47:13 INFO SparkEnv: Registering BlockManagerMaster
+26/10/27 22:47:13 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+26/10/27 22:47:13 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+26/10/27 22:47:13 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+26/10/27 22:47:13 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-cf40c533-ce56-49ec-a179-87d2d5121665
+26/10/27 22:47:13 INFO MemoryStore: MemoryStore started with capacity 413.9 MiB
+26/10/27 22:47:13 INFO SparkEnv: Registering OutputCommitCoordinator
+26/10/27 22:47:13 INFO JettyUtils: Start Jetty 0.0.0.0:4040 for SparkUI
+26/10/27 22:47:13 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+26/10/27 22:47:14 INFO Executor: Starting executor ID driver on host 10.0.2.15
+26/10/27 22:47:14 INFO Executor: OS info Linux, 5.15.0-198-generic, amd64
+26/10/27 22:47:14 INFO Executor: Java version 11.0.32.1
+26/10/27 22:47:14 INFO Executor: Starting executor with user classpath (userClassPathFirst = false): ''
+26/10/27 22:47:14 INFO Executor: Created or updated repl class loader org.apache.spark.util.MutableURLClassLoader@6fac4668 for default.
+26/10/27 22:47:14 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 44461.
+26/10/27 22:47:14 INFO NettyBlockTransferService: Server created on 10.0.2.15:44461
+26/10/27 22:47:14 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+26/10/27 22:47:14 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, 10.0.2.15, 44461, None)
+26/10/27 22:47:14 INFO BlockManagerMasterEndpoint: Registering block manager 10.0.2.15:44461 with 413.9 MiB RAM, BlockManagerId(driver, 10.0.2.15, 44461, None)
+26/10/27 22:47:14 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, 10.0.2.15, 44461, None)
+26/10/27 22:47:14 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, 10.0.2.15, 44461, None)
+Registros originales: 8376
+Registros invalidos: 0
+Duplicados exactos: 0
+Registros posteriores al corte: 1
+Dias verificados: 12749
+Periodo: 1991-12-02 a 2026-10-27
+RESUMEN GENERAL
++-----+------+-------+--------+
+| dias|minimo| maximo|promedio|
++-----+------+-------+--------+
+|12749|620.62|5061.21| 2386.13|
++-----+------+-------+--------+
+
+FECHAS DE LOS VALORES EXTREMOS
++----------+-------+
+|     fecha|    trm|
++----------+-------+
+|1991-12-21| 620.62|
+|1991-12-22| 620.62|
+|1991-12-23| 620.62|
+|2022-11-05|5061.21|
+|2022-11-06|5061.21|
+|2022-11-07|5061.21|
+|2022-11-08|5061.21|
++----------+-------+
+
+RESUMEN ANUAL
++----+----+-------+-------+--------+---------+
+|anio|dias|minimo |maximo |promedio|cobertura|
++----+----+-------+-------+--------+---------+
+|1991|30  |620.62 |643.42 |629.98  |Parcial  |
+|1992|366 |632.37 |738.19 |680.83  |Completo |
+|1993|365 |737.55 |819.55 |786.54  |Completo |
+|1994|365 |804.33 |844.40 |826.40  |Completo |
+|1995|365 |831.27 |1003.47|912.89  |Completo |
+|1996|366 |987.65 |1074.72|1036.43 |Completo |
+|1997|365 |1005.33|1307.54|1140.96 |Completo |
+|1998|365 |1293.58|1599.15|1426.24 |Completo |
+|1999|365 |1525.59|2017.27|1756.90 |Completo |
+|2000|366 |1873.77|2232.24|2088.14 |Completo |
+|2001|365 |2219.60|2378.41|2300.10 |Completo |
+|2002|365 |2231.98|2888.23|2506.55 |Completo |
+|2003|365 |2778.21|2968.88|2875.91 |Completo |
+|2004|366 |2316.12|2778.92|2628.47 |Completo |
+|2005|365 |2272.95|2397.25|2321.49 |Completo |
+|2006|365 |2225.44|2634.06|2358.96 |Completo |
+|2007|365 |1877.88|2261.22|2076.24 |Completo |
+|2008|366 |1652.41|2392.28|1967.11 |Completo |
+|2009|365 |1825.68|2596.37|2153.30 |Completo |
+|2010|365 |1786.20|2044.23|1898.68 |Completo |
+|2011|365 |1748.41|1972.76|1846.97 |Completo |
+|2012|366 |1754.89|1942.70|1797.79 |Completo |
+|2013|365 |1758.45|1952.11|1869.10 |Completo |
+|2014|365 |1846.12|2446.35|2000.33 |Completo |
+|2015|365 |2360.58|3356.00|2743.39 |Completo |
+|2016|366 |2833.78|3434.89|3050.98 |Completo |
+|2017|365 |2837.90|3092.65|2951.32 |Completo |
+|2018|365 |2705.34|3289.69|2956.43 |Completo |
+|2019|365 |3072.01|3522.48|3281.09 |Completo |
+|2020|366 |3253.89|4153.91|3693.36 |Completo |
+|2021|365 |3420.78|4023.68|3743.09 |Completo |
+|2022|365 |3706.95|5061.21|4255.44 |Completo |
+|2023|365 |3822.05|4989.58|4325.05 |Completo |
+|2024|366 |3763.43|4478.21|4071.35 |Completo |
+|2025|365 |3706.94|4416.69|4052.71 |Completo |
+|2026|300 |3048.12|3797.64|3473.13 |Parcial  |
++----+----+-------+-------+--------+---------+
+
+MESES COMPLETOS CON MAYOR PROMEDIO
++----------+----+-------+-------+--------+---------+
+|mes       |dias|minimo |maximo |promedio|cobertura|
++----------+----+-------+-------+--------+---------+
+|2022-11-01|30  |4801.06|5061.21|4926.66 |Completo |
+|2023-02-01|28  |4584.44|4966.33|4803.11 |Completo |
+|2022-12-01|31  |4745.04|4836.24|4788.49 |Completo |
+|2023-03-01|31  |4627.27|4866.50|4766.31 |Completo |
+|2023-01-01|31  |4531.75|4989.58|4715.20 |Completo |
++----------+----+-------+-------+--------+---------+
+only showing top 5 rows
+
+MESES COMPLETOS CON MENOR PROMEDIO
++----------+----+------+------+--------+---------+
+|mes       |dias|minimo|maximo|promedio|cobertura|
++----------+----+------+------+--------+---------+
+|1992-02-01|29  |633.03|640.52|635.67  |Completo |
+|1992-03-01|31  |635.86|647.24|640.50  |Completo |
+|1992-01-01|31  |632.37|659.74|644.06  |Completo |
+|1992-04-01|30  |641.98|657.97|649.96  |Completo |
+|1992-05-01|31  |653.10|664.50|659.77  |Completo |
++----------+----+------+------+--------+---------+
+only showing top 5 rows
+
+ANALISIS TERMINADO. Resultados en: /home/hadoop/tarea3_trm/resultados_automaticos
